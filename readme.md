@@ -17,6 +17,7 @@ Herring Cove is a clean and responsive [hugo](http://hugo.spf13.com) theme based
 
 ![screenshot](/images/screenshot1.png)
 ![screenshot](/images/screenshot2.png)
+![screenshot](/images/screenshot-landing.png)
 
 ### Setup
 
@@ -63,3 +64,12 @@ params:
     About: "/about/"
 ```
 
+## Landing page
+If you want to enable the landing page make sure you have the following params in your config.
+
+```yaml
+params:
+  ProfilePicture: "pathToImageOrUrlToImage"
+  enableLandingPage: true
+  landingPageRedirectUrl: "/about/"
+```
