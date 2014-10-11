@@ -33,7 +33,7 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
 					{{range $key, $element := .Site.Params.links}}
-					<li><a href="{{ $element }}">{{title $key }} </a></li>
+						<li><a href="{{ $element }}">{{title $key }} </a></li>
 					{{ end }}
           </ul>
         </div><!--/.nav-collapse -->
