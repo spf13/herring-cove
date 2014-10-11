@@ -72,4 +72,5 @@ params:
   ProfilePicture: "pathToImageOrUrlToImage"
   enableLandingPage: true
   landingPageRedirectUrl: "/about/"
+  AuthorName: "Jhon Doe"
 ```
