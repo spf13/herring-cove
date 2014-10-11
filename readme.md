@@ -49,10 +49,14 @@ Herring Cove is always a work in progress and as such, I hope to clean up the co
 
 [Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
 
-## Additional features
+## Additional features by
+**Maikel Bollemeijer**
+- <https://github.com/mbollemeijer>
+-------------
 
 1. Profile picture parameter.
 2. Links in the menus are genereted through params in the config
+3. Landingpage
 
 Below an example of the yaml config
 ```yaml
