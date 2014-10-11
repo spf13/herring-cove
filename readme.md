@@ -52,6 +52,7 @@ Herring Cove is always a work in progress and as such, I hope to clean up the co
 ## Additional features by
 **Maikel Bollemeijer**
 - <https://github.com/mbollemeijer>
+
 -------------
 
 1. Profile picture parameter.
