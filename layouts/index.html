@@ -1,4 +1,30 @@
-{{ template "theme/partials/header.html" . }}
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ .Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ .Description }}">
+  <link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  <link href="{{ .Site.BaseUrl }}/css/bootstrap.min.css" rel="stylesheet">
+  <link href="{{ .Site.BaseUrl }}/css/hc.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif] d-->
+    </head>
+	<body>
+	{{ if eq .Site.Params.enableLandingPage true}}
+	<div class="circular">
+		<img src="{{ .Site.Params.ProfilePicture }}" alt="" />
+			<div id="landing-about">
+				<a href="{{ .Site.Params.landingPageRedirectUrl }}">Find out more about <b>{{ .Site.Params.AuthorName }}</b> </a>
+		</div>
+	</div>
+	{{ else }}
+		{{ template "theme/partials/header.html" . }}
   <div id="article">
       <h1>{{.Title}}</h1>
   <ul class="posts">
@@ -6,4 +32,8 @@
       <li><span><a href="{{ .Permalink }}">{{ .Title }}</a><time class="pull-right post-list">{{ .Date.Format "Mon, Jan 2, 2006" }}</h4></time></span></span></li>
       {{ end }}
   </ul>
-{{ template "theme/partials/footer.html" }}
+	{{ template "theme/partials/footer.html" }}	
+	{{ end }}
+
+	</body>
+</html>

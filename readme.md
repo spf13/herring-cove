@@ -17,6 +17,7 @@ Herring Cove is a clean and responsive [hugo](http://hugo.spf13.com) theme based
 
 ![screenshot](/images/screenshot1.png)
 ![screenshot](/images/screenshot2.png)
+![screenshot](/images/screenshot-landing.png)
 
 ### Setup
 
@@ -47,3 +48,34 @@ Herring Cove is always a work in progress and as such, I hope to clean up the co
 *What's with the name?*
 
 [Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
+
+## Additional features by
+**Maikel Bollemeijer**
+- <https://github.com/mbollemeijer>
+
+-------------
+
+1. Profile picture parameter.
+2. Links in the menus are genereted through params in the config
+3. Landingpage
+
+Below an example of the yaml config
+```yaml
+params:
+  ProfilePicture: "pathOrUrlToImage"
+  links:
+    Home : "/"
+    Blog: "/blog/"
+    About: "/about/"
+```
+
+## Landing page
+If you want to enable the landing page make sure you have the following params in your config.
+
+```yaml
+params:
+  ProfilePicture: "pathToImageOrUrlToImage"
+  enableLandingPage: true
+  landingPageRedirectUrl: "/about/"
+  AuthorName: "Jhon Doe"
+```
