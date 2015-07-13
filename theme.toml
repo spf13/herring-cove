@@ -2,6 +2,7 @@ name = "Herring Cove"
 description = "Herring Cove is ported from the jekyll theme of the same name"
 license = "MIT"
 tags = ["blog", "company"]
+min_version = 0.14
 
 [author]
     name = "spf13"
