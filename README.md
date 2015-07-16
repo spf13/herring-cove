@@ -1,7 +1,7 @@
 Herring Cove
 ============
 
-Herring Cove is a clean and responsive [hugo](http://hugo.spf13.com) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
+Herring Cove is a clean and responsive [Hugo](//hugo.spf13.com) theme based on the [Jekyll](//jekyllrb.com) theme of the same name.
 
 
 ### Overview
@@ -21,18 +21,16 @@ Herring Cove is a clean and responsive [hugo](http://hugo.spf13.com) theme based
 
 ### Setup
 
-1. Install Jekyll
-2. Fork or [download](https://github.com/arnp/herring-cove/archive/master.zip) this theme repo
-3. Edit the `_config.yml` file
-
-You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon. 
+1. Install Hugo
+2. Fork or [download](//github.com/spf13/herring-cove/archive/master.zip) this theme repo
+3. Edit the config file in the root directory of your site
 
 ### Download
 
-[download](https://github.com/arnp/herring-cove/archive/master.zip)
+[download](//github.com/spf13/herring-cove/archive/master.zip)
 
 ### License
-* [MIT](http://opensource.org/licenses/MIT)
+* [MIT](//opensource.org/licenses/MIT)
 
 ## Author
 **Ravi Patel**
@@ -47,7 +45,7 @@ Herring Cove is always a work in progress and as such, I hope to clean up the co
 
 *What's with the name?*
 
-[Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
+[Herring Cove](//www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
 
 ## Additional features by
 **Maikel Bollemeijer**
@@ -55,8 +53,8 @@ Herring Cove is always a work in progress and as such, I hope to clean up the co
 
 -------------
 
-1. Profile picture parameter.
-2. Links in the menus are genereted through params in the config
+1. Profile picture parameter
+2. Links in the menus are generated through params in the config
 3. Landingpage
 
 Below an example of the yaml config
@@ -77,5 +75,5 @@ params:
   ProfilePicture: "pathToImageOrUrlToImage"
   enableLandingPage: true
   landingPageRedirectUrl: "/about/"
-  AuthorName: "Jhon Doe"
+  AuthorName: "John Doe"
 ```
