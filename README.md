@@ -1,6 +1,10 @@
 Herring Cove
 ============
 
+### NOTE: This theme is no longer maintained.
+
+***
+
 Herring Cove is a clean and responsive [Hugo](//gohugo.io) theme based on the [Jekyll](http://jekyllrb.com) theme of the same name.
 
 
